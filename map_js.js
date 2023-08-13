@@ -67,9 +67,9 @@ function initMap() {
 
   // Create markers.
   for (let i = 0; i < features.length; i++) {
-    const marker = new google.maps.AdvancedMarkerView({
+    const marker = new google.maps.Marker({
       position: features[i].position,
-      content: features[i].content,
+      icon: features[i].icon,
       map: map,
     });
   }
