@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Add Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    
+</head>
+
+<body>
+
+    <!--The div element for the map -->
+    <div class="top_container">
+        <div>
+            <img />
+        </div>
+        <p></p>
+        <div class="search_container"></div>
+    </div>
+
+    <div id="map"></div>
+    <!-- prettier-ignore -->
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPIfvcPxx3NbnMmOQjha88qVIx_Z_Qhjo&callback=initMap">
+        </script>
+    <script type="module" src="./map_js.js"></script>
+</body>
+
+</html>
