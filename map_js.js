@@ -8,7 +8,7 @@ function initMap() {
   });
 
   const iconBase =
-    "../img/mapmarkerimg/";
+    "./testmapmarkerimg/";
   const icons = {
     meat: {
       icon: iconBase + "축산.png",
